@@ -1,0 +1,242 @@
+/* Training Page Styles */
+
+/* Training Overview Section */
+.training-overview {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.training-overview h1 {
+    font-size: 36px;
+    color: #03164c;
+    margin-bottom: 20px;
+}
+
+.training-overview p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Programs Section */
+.programs-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.programs-section h2 {
+    font-size: 32px;
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.program-card {
+    width: 250px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.program-card h3 {
+    font-size: 22px;
+    color: #03164c;
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Trainer Spotlight Section */
+.trainer-spotlight {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.trainer-spotlight h2 {
+    font-size: 32px;
+    color: #03164c;
+    margin-bottom: 40px;
+}
+
+.trainers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.trainer {
+    width: 200px;
+    text-align: center;
+}
+
+.trainer img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.trainer h3 {
+    font-size: 20px;
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+.trainer p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Schedule Section */
+.schedule-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.schedule-section h2 {
+    font-size: 32px;
+    color: #03164c;
+    margin-bottom: 20px;
+}
+
+.schedule-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.schedule-section table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.schedule-section th, .schedule-section td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.schedule-section th {
+    background-color: #03164c;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Success Stories Section */
+.success-stories {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.success-stories h2 {
+    font-size: 32px;
+    color: #e50914;
+    margin-bottom: 40px;
+}
+
+.stories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.story {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.story p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.story h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #03164c;
+    font-weight: bold;
+}
+
+/* FAQs Section */
+.faqs-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.faqs-section h2 {
+    font-size: 32px;
+    color: #e50914;
+    margin-bottom: 40px;
+}
+
+.faq {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.faq h4 {
+    font-size: 18px;
+    color: #03164c;
+    margin-bottom: 10px;
+}
+
+.faq p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .programs, .trainers, .stories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-card, .trainer, .story {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .schedule-section table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
