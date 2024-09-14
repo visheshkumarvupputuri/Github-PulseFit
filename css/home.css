@@ -61,7 +61,7 @@ body {
 /* Hero Section */
 .hero-section {
     color: white;
-    background-image: url('images/banner-bg.jpg'); /* Replace with a new banner image */
+    background-image: url('../images/banner-bg.jpg'); /* Replace with a new banner image */
     background-size: cover;
     background-position: center;
     text-align: center;
